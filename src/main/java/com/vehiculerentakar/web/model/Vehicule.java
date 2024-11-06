@@ -36,9 +36,6 @@ public class Vehicule {
     private boolean isAvailable;
 
 
-    //Constructeur
-    public Vehicule() {
-    }
 
     public Vehicule(int id, String type, String model, String brand, String color, int kilometer, int horsePower, int cargo, int capacity, int displacement, String registration, boolean isAvailable) {
         this.id = id;
@@ -54,6 +51,7 @@ public class Vehicule {
         this.registration = registration;
         this.isAvailable = isAvailable;
     }
+
 
     //Getter/Setter//
 
